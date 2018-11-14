@@ -1,0 +1,13 @@
+{
+  "cxx": "clang++",
+  "cxxflags": ["-std=c++17", "-fPIC", "-Wall", "-Wpedantic"],
+  "link": "",
+  "source": "src",
+  "include_dir": "include",
+  "build": "build",
+  "opero": {
+    "path": "{{root}}/opero",
+    "files": "{{source}}/main.cpp",
+    "type": "exe"
+  }
+}
