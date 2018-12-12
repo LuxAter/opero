@@ -1,0 +1,13 @@
+*.o
+*.d
+*.log
+*.swp
+build/*
+docs/html/*
+docs/latex/*
+docs/xml/*
+opero
+unit-test
+.gdb_history
+coverage/*
+core
